@@ -1,28 +1,33 @@
-# TASK-NAME
+### Frontend
 
-This is the template for tasks. These repos are the starting points and instructions for students to explore a concept.
+Make your products list dynamic.
 
-## Instructions
+#### Data file
 
-Add instructions here. This is github flavoured markdown so you can be as creative as you want. Add code snippets, images, gifs, checkboxes, anything you want.
+1. In `src`, create a file called `products.js`.
+2. In this file, create an array called `products` with objects as elements. Every object should have a `name`, `price` and `image`.
+3. Add two different products to your array.
+4. Export your array and import it in `App.js`.
 
-### 1. Extract Components
+#### Product List
 
-- [ ] Look at the html in `index.html`
-- [ ] Move it into `App.js`
-- [ ] Do you see those cards? Can you turn them into a component??
+1. Add two products that you want to sell under the shop image. Every product should have a name, image and price.
+2. Replace the hard-coded names, images and prices with the data from the array `data`.
 
-It should look like this:
+#### Mapping
 
-![screenshot](https://tenor.com/xNjE.gif)
+1. Map over your `products` array, return the JSX code that represents one item.
+2. Save your new array in a variable called `productsList`.
+3. Replace your items' JSX with `productsList`.
+4. Check your website, everything should be exactly the same.
 
-### 2. Do the thing
+#### Testing
 
-Explanation of the thing and why we're about to do it. Cool right?
+At this point, nothing should've changed. How can we know everything is working properly?
 
-- [ ] Make a `store.js` file
-- [ ] Copy + Paste broken code:  
-  ```js
-  console.log("lol");
-  ```
-- [ ] Have an explanation ready for when Zainab interrogates you
+1. Add a new product to your `products` array in `products.js`. It should render on the screen.
+2. Remove two products from your array, they should be removed from the screen. Don't forget to put them back.
+
+Here's an **example** of what your website would look like.
+
+![Cookieshop example](https://i.imgur.com/IxOcHpf.png)
