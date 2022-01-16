@@ -30,4 +30,4 @@ At this point, nothing should've changed. How can we know everything is working 
 
 Here's an **example** of what your website would look like.
 
-![Cookieshop example](https://i.imgur.com/IxOcHpf.png)
+![Cookieshop example](https://user-images.githubusercontent.com/8784343/149667768-e0dfbcc4-c963-4e75-8a55-f8169f32711a.png)
